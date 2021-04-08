@@ -7,8 +7,6 @@ body {
   font-family: 'Dela Gothic One';
 }
 
-
-
 img {
   width:100%;
 }
@@ -35,14 +33,14 @@ div {
 
 .menu-item {
   padding: 5px;
-  font-size: x-large;
+  font-size: xx-large;
   text-decoration: none;
   color: #1DA1F2;
   
 }
 .menu-item:visited { color:#1DA1F2; }
 .menu-item:visited:hover { color: #1DA1F2; }
-.menu-item:hover { color: green; }
+.menu-item:hover { color: purple; }
 .menu-item:active { color: #1DA1F2; }
 
 .basic-navigation-container{
@@ -53,8 +51,6 @@ div {
   height: 64px;
   border-radius: 10px;
   position: fixed;
-
-
 }
 
 .out-wrapper {
@@ -94,7 +90,7 @@ div {
 
 
 .content-quote{
-  font-size: 150px;
+  font-size: 90px;
   text-align: left;
   color: #1DA1F2;
 }
@@ -131,7 +127,7 @@ footer {
 	background: rgb(47, 51, 54);
     text-align: center;
     font-family: 'Dela Gothic One';
-    border-radius: 10px;
+    border-radius: 15px;
   }
 .footerLinks {
    text-align: center;
@@ -139,7 +135,7 @@ footer {
 .footerLinks ul {
 	padding: 0;
     list-style-type: none;
-    margin: 0;
+    margin: 3;
 }
 .footerLinks li {
 	display: inline;
@@ -147,7 +143,7 @@ footer {
 .footerLinks a {
 	color: #d9d9d9;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 20px;
 }
 .copyright {
     text-align: center;
@@ -156,5 +152,5 @@ footer {
 .copyright p {
 	margin: 0;
 	color: #b3b3b3;
-	font-size: 11px;
+	font-size: 10px;
 }

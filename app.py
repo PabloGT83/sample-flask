@@ -15,7 +15,6 @@ app.config["SECRET_KEY"] = "mysecret"
 app.static_folder = 'static'
 
 @app.route('/', methods = ['GET', 'POST'])
-
 def landing():
     user_form = UserForm(csrf_enabled=False)
     if user_form.validate_on_submit():
@@ -31,8 +30,11 @@ def landing():
     else:
         return render_template('index.html', template_form=user_form)
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 if __name__ == "__main__":
      # Launch the Flask dev server
      app.run(host="localhost", debug=False)
      
-    
